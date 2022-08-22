@@ -1,0 +1,115 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+.main div{
+    padding: 10px;
+}
+
+.coverpage{
+    background-image: url(../IMAGES/bg-hero-desktop.svg);
+}
+header{
+    display: flex;
+}
+header img{
+    margin-left: 20px;
+}
+header a {
+    padding: 10px;
+    width: 150px;
+    color: black;
+    background-color: rgb(207, 204, 204);
+    text-decoration: none;
+    margin-left: 60%;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.page1{
+    display: flex;
+}
+.box1{
+    background-color: whitesmoke;
+    
+}
+.box11{
+    flex: 1;
+    margin: 80px;
+}
+.img11{
+    flex: 1;
+    margin: auto;
+}
+
+.pink {
+    padding: 10px;
+    color:white;
+    background-color:  hsl(322, 80%, 49%);
+    text-decoration: none;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.box1{
+    margin: 20px;
+    justify-content: center;
+    border: 1px solid white;
+    display: flex;
+}
+.img{
+    width: 500px;
+    height: 300px;
+
+}
+
+.ready{
+
+    width: 40%;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    padding: auto;
+    height: 150px;
+    margin-left: 30%;
+
+}
+
+footer{
+    color: white;
+    display: flex;
+    background-color: rgb(0, 10, 0);
+    padding:50px;
+    margin-top: -50px ;
+}
+.box-1{
+    flex: 2;
+}
+.box-2{
+    flex: 1;
+}
+.box-3{
+    flex: 1;
+}
+.box-4{
+    flex: 1;
+    padding: 60px;
+    margin-left: 20px;
+}
+
+.box-4 p a img{
+    width: 30px;
+    height: auto;
+    
+}
+.box-4 p{
+    display: inline-flex;
+    background-color: azure;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
